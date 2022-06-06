@@ -36,7 +36,7 @@ Christian and I built and tested our SDR based on the 5th Rev of this project. T
 
 ### BandPass Filter
 
-![BandPass Filter and Voltage Divider](https://user-images.githubusercontent.com/103695977/171759491-6baa6ea1-8451-4fa1-af03-81ee3740693b.jpg)
+![BandPass Filter and Voltage Divider](https://user-images.githubusercontent.com/103695977/172123798-0871c234-771f-46bd-9502-651a71eb86e6.jpg)
 
 We built this bandpass filter using the [LC Filter Design Tool](https://rf-tools.com/lc-filter/.). This is a 3rd-Order Conventional, Series First, Butterworth Filter that will only allow frequencies between 7MHz and 18MHz to pass through it. It has input and output impedances of 50 ohms.
 
