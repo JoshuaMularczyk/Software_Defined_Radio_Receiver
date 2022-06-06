@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name "CUI_SJ1-3225N")(type "KiCad")(uri "C:/Users/willi/OneDrive/Documents/Walla Walla University/Spring 2022/Electronics II/Software Defined Radio Github/Schematic Files/CUI_SJ1-3225N.pretty")(options "")(descr ""))
-  (lib (name "Audio Jack_Stereo 3")(type "KiCad")(uri "C:/Users/willi/OneDrive/Documents/Walla Walla University/Spring 2022/Electronics II/Software Defined Radio Github/Schematic Files/Audio Jack_Stereo 3.5mm")(options "")(descr ""))
-)

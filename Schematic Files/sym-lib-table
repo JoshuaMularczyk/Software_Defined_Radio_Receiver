@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name "lt6231")(type "KiCad")(uri "C:/Users/jcmul/OneDrive/Documents/GitHub/Christian.SDR/Schematic/lt6231.kicad_sym")(options "")(descr ""))
-  (lib (name "SJ1-3525N")(type "Legacy")(uri "C:/Users/jcmul/OneDrive/Documents/GitHub/Christian.SDR/Schematic/SJ1-3525N/SJ1-3525N.lib")(options "")(descr ""))
-)
