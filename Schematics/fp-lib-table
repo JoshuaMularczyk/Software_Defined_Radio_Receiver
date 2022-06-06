@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Audio Jack_Stereo 3")(type "KiCad")(uri "C:/Users/jcmul/OneDrive/Documents/GitHub/Christian.SDR/Schematic/Audio Jack_Stereo 3.5mm")(options "")(descr ""))
+  (lib (name "CUI_SJ1-3225N")(type "KiCad")(uri "C:/Users/jcmul/OneDrive/Documents/GitHub/Christian.SDR/Schematic/CUI_SJ1-3225N.pretty")(options "")(descr ""))
+)
