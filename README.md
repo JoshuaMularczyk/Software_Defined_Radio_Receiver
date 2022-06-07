@@ -83,9 +83,9 @@ Our Bandpass Filter was designed to allow a frequency range of 7-18MHz to pass t
 
 ## Rev 5 Testing and Fixed Issues
 
-When our Rev 5 boards arrived we realized that there was no ground plane. There had been a mixup with the gerber files and no ground plane was present. To fix this, I went ahead and connected any ground connections that relied on the ground plane with external wires. This can be seen in the [Rev 5 photos on the wiki](). 
+When our Rev 5 boards arrived we realized that there was no ground plane. There had been a mixup with the gerber files and no ground plane was present. To fix this, I went ahead and connected any ground connections that relied on the ground plane with external wires. This can be seen in the [Rev 5 photos on the wiki](https://github.com/JoshuaMularczyk/Software_Defined_Radio_Receiver/wiki/Rev-5-Photos). 
 
-Next a college, [Nicholas Zimmerman](), who had been helping us error check, noticed that we had wired our Tayloe Mixer incorrectly. I then cut three out of the four traces and jumped the wires to send the I and Q signals to the correct paths. This can also be seen in the wiki. 
+Next a college, [Nicholas Zimmerman](https://github.com/nickz12345), who had been helping us error check, noticed that we had wired our Tayloe Mixer incorrectly. I then cut three out of the four traces and jumped the wires to send the I and Q signals to the correct paths. This can also be seen in the wiki. 
 
 The final error in our Rev 5 design was in our second low pass filter. This was discovered by Dr. Rob Frohne. We had not realized that the V- needed to be connected to a negative voltage instead of ground. Luckily this was a backup filter and most of the gain was in our first LPF. To fix this, I simply just removed the second LPF from the board and jumped the outputs of the first LPF to the inputs of our audio connector.
 
