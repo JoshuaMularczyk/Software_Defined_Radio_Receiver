@@ -29,7 +29,7 @@ Our (SDR) receiver connects to an antenna (mounted ontop of the Engineering Buil
 
 ## Theory
 
-<img width="634" alt="blockdia" src="https://user-images.githubusercontent.com/103919092/172436768-47c5e314-98f8-4722-950f-099fd011b037.PNG">
+<img width="597" alt="blockdia" src="https://user-images.githubusercontent.com/103919092/172442353-dc40c33d-0328-46e8-bc0f-a3b80807796e.PNG">
 
 The block diagram above shows the basic components of our SDR Receiver. The signal is received by an antenna and is passed through the bandpass filter which attenuates signals that are above or below our frequency range of 7-18 MHz. These signals are then passed through the Tayloe Quadrature Product Detector. This generates the I and Q signals for demodulation. Once the signals have been split they pass through the low noise filter which cuts off anything above 100 KHz, creating a smooth output signal. This signal is then send into an external soundcard which demodulates teh signal before it is read by Quisk software. Quisk interfaces to the Arduino Nana and allows for tuning of the desired frequency.
 
