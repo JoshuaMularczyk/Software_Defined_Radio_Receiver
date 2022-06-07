@@ -35,7 +35,7 @@ The block diagram above shows the basic components of our SDR Receiver. The sign
 
 ## Rev 6 Schematic
 
-<img width="657" alt="completeschematic" src="https://user-images.githubusercontent.com/103919092/172456078-4ce87fb0-aaee-48cd-a33c-bca96f2128b5.PNG">
+<img width="857" alt="completeschematic" src="https://user-images.githubusercontent.com/103919092/172456078-4ce87fb0-aaee-48cd-a33c-bca96f2128b5.PNG">
 
 Christian and I built and tested our SDR based on the 5th Rev of this project. These schematics can be found in the Rev 5 file. The follow schematics are our most updated designs. These were created after finding multiple errors while constructing our pcb. The Rev 6 schematics can be downloaded [here](https://github.com/JoshuaMularczyk/Software_Defined_Radio_Receiver/tree/main/Schematics/SDRrecV6). These schematics were all designed in [KiCad](https://www.kicad.org/) and will be broken down into seperate pieces below.
 
