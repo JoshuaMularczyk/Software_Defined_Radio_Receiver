@@ -96,18 +96,14 @@ We then hooked up our SDR to a BNC connector that ran to the roof of our Enginee
 
 The first signal that we tuned into was being used to communicate the weather from what sounded like an air traffic control tower. 
 
-![weather](https://user-images.githubusercontent.com/103695977/171746787-f60b8dcc-d91d-4fa2-9dc1-e9d8d79bb7dc.png)
-
 ## "Wind 360 degrees, light drizzle, visibility more than 6 miles".
 
-
+![weather](https://user-images.githubusercontent.com/103695977/171746787-f60b8dcc-d91d-4fa2-9dc1-e9d8d79bb7dc.png)
 
 The second was an automated message that would read off the Coordinated Universal time every minute.
 
-![listeningIn](https://user-images.githubusercontent.com/103695977/171746851-dc1fa95d-337f-405f-911d-0fd728108ca7.png)
-
 ## "At the tone ****** 5 hours 52 minutes coordinated universal time"
 
-
+![listeningIn](https://user-images.githubusercontent.com/103695977/171746851-dc1fa95d-337f-405f-911d-0fd728108ca7.png)
 
 We were also able to listen to a few different music stations as well as two men in Hawaii talk about hurricanes to each other.
