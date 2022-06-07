@@ -1,6 +1,6 @@
 # Software-Defined-Radio-Reciever
 
-This project was taken on with the goal to create a Software Defined Radio (SDR) in coolaboration with my partner Christian Williams. This project was completed for my Engineering Electronics II class and given to us by our professor, [Dr. Rob Frohne](https://github.com/frohro).
+This project was taken on with the goal to create a Software Defined Radio (SDR) in coolaboration with my partner [Christian Williams](https://github.com/cwill713). This project was completed for my Engineering Electronics II class and given to us by our professor, [Dr. Rob Frohne](https://github.com/frohro).
 
 ## Design Specifications/Objectives
 
