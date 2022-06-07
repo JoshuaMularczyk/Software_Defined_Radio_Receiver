@@ -49,7 +49,7 @@ We built this bandpass filter using the [LC Filter Design Tool](https://rf-tools
 
 ![Tayloe Mixer](https://user-images.githubusercontent.com/103695977/171759381-e49fd43a-300a-4075-a9eb-c46a4cfd6736.jpg)
 
-The mixer that Christian and I decided to use was  Tayloe Mixer we referenced this [paper](http://www.norcalqrp.org/files/Tayloe_mixer_x3a.pdf) by Dan Tayloe when designing our mixer. The multiplexer that we used was the [SN74CBT](http://www.ti.com/lit/gpn/sn74cbt3253) which converts the RF signal into four baseband signals. The Tayloe mixer uses switches to combine the signals that are 180 degrees out of phase with differential amplifiers so that signals above and below the oscilator frequecy can be detected.
+The mixer that Christian and I decided to use was  Tayloe Mixer we referenced this [paper](http://www.norcalqrp.org/files/Tayloe_mixer_x3a.pdf) by Dan Tayloe when designing our mixer. The demultiplexer that we used was the [SN74CBT](http://www.ti.com/lit/gpn/sn74cbt3253) which converts the RF signal into four baseband signals. The Tayloe mixer uses switches to combine the signals that are 180 degrees out of phase with differential amplifiers so that signals above and below the oscilator frequecy can be detected.
 
 Our Lowpass filter was designed using the [TI Filter Design Tool](). It was made using two [LT6231](https://www.analog.com/media/en/technical-documentation/data-sheets/623012fc.pdf) low noise op amps and is designed to block all frequencies greater that 100kHz.
 
@@ -71,15 +71,14 @@ We conducted all of our simulations on [LTSpice](https://www.analog.com/en/desig
 
 ### Bandpass Filter
 
-![image](https://user-images.githubusercontent.com/103695977/163806294-b24794c1-b576-47e0-a262-90af70f5b265.png)
-![image](https://user-images.githubusercontent.com/103695977/163810045-d9e52c8f-7157-414a-8c3d-9e4d7e16fb39.png)
+![BandPass Filter and Voltage Divider](https://user-images.githubusercontent.com/103695977/172123798-0871c234-771f-46bd-9502-651a71eb86e6.jpg)
 
 Our Bandpass Filter was designed to allow a frequency range of 7-18MHz to pass through. As seen in the simulation above, curser 1 and cursor 2 mark the two freqency cutoff points. Inbetween them is the peak of our curve which is just where we want it.
 
 ### Lowpass Filter
 
-![image](https://user-images.githubusercontent.com/103695977/163810193-a9069945-3c7c-4594-b9f1-aa382b970d71.png)
-![image](https://user-images.githubusercontent.com/103695977/163810300-0baa7ec9-fe0b-4580-a687-907685373d8e.png)
+![LowPass Filter Simulation](https://user-images.githubusercontent.com/103695977/172126680-7654ed1c-1729-4d28-b0ac-22c0453f8cd5.jpg)
+![LowPass Filter Schematic](https://user-images.githubusercontent.com/103695977/172126698-47ae7323-1dd5-43b3-99ac-888cf9888982.jpg)
 
 ### Complete SDR
 
