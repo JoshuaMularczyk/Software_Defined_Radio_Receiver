@@ -71,7 +71,8 @@ We conducted all of our simulations on [LTSpice](https://www.analog.com/en/desig
 
 ### Bandpass Filter
 
-![BandPass Filter and Voltage Divider](https://user-images.githubusercontent.com/103695977/172123798-0871c234-771f-46bd-9502-651a71eb86e6.jpg)
+![Bandpass Filter Simulation Graph](https://user-images.githubusercontent.com/103695977/172128945-2436fb08-f1e6-4906-a7a6-28c304c560f3.jpg)
+![Bandpass Filter Simulation](https://user-images.githubusercontent.com/103695977/172128985-f59a6ec8-1b1a-4b8a-a930-dfc2ace7611d.jpg)
 
 Our Bandpass Filter was designed to allow a frequency range of 7-18MHz to pass through. As seen in the simulation above, curser 1 and cursor 2 mark the two freqency cutoff points. Inbetween them is the peak of our curve which is just where we want it.
 
