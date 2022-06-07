@@ -31,6 +31,8 @@ Our (SDR) receiver connects to an antenna (mounted ontop of the Engineering Buil
 
 <img width="634" alt="blockdia" src="https://user-images.githubusercontent.com/103919092/172436768-47c5e314-98f8-4722-950f-099fd011b037.PNG">
 
+The basics of the SDR Receiver are shown above in the block diagram, with the blue components being defined by software. An antenna picks up the radio signal and passes it through a bandpass filter. This filter will attenuate any signals outside our desired range of 5 – 10 MHz. This is then passed through a Tayloe Mixer, also known as the Tayloe Quadrature Product Detector. The Tayloe Mixer is a simple and efficient mixer that uses a 1:4 demultiplexer and operational amplifiers to generate the I and Q quadrature signals for demodulation. After the signal has been split into four bandbase signals, they are amplified and combined into the I and Q quadrature signals. Those signals go through a final Low-Pass filter that will attenuate signals above 100KHz in frequency, effectively smoothing the output signal. This signal is then sent via 3.5mm audio cable to the soundcard which demodulates the signal. Quisk can then read the input from the sound card and play it. Quisk also interfaces to the Arduino Nano to set the speed of the local oscillator for tuning into the desired frequency.
+
 ## Rev 6 Schematic
 
 Christian and I built and tested our SDR based on the 5th Rev of this project. These schematics can be found in the Rev 5 file. The follow schematics are our most updated designs. These were created after finding multiple errors while constructing our pcb. The Rev 6 schematics can be downloaded [here](). These schematics were all designed in [KiCad](https://www.kicad.org/) and will be broken down into seperate pieces below.
@@ -82,7 +84,7 @@ Our Bandpass Filter was designed to allow a frequency range of 7-18MHz to pass t
 ![Complete Simulation Graph](https://user-images.githubusercontent.com/103695977/172208557-2a06cd88-0c1e-46c1-88f6-4b392ef950bf.jpg)
 ![Complete SDR Simulation](https://user-images.githubusercontent.com/103695977/172208710-ec5d7ed2-cf76-4863-a852-ea123d72f428.jpg)
 
-With the two filters out of the way, we can assemble the components inbetween. We designed the tayloe mixer using four voltage controlled switches, and four voltage pulses that control them. For our op amps, we added our LT6231, these are already Linear Technology componenets so they dont take long to simulate in LTSpice. The LT6231's had a much lower noise profile than the LM4578's we selected for our second LPF, so we knew that the first LPF would take care of mostly everything and the second would just perfect the output. In the simulation window above you can see the baseband signals and the I and Q outputs. They're exactly as expected, about 90 degrees out of phase.
+We designed the tayloe mixer using four voltage controlled switches, and four voltage pulses that control them. For our op amps, we added our LT6231, these are already Linear Technology componenets so they dont take long to simulate in LTSpice. The LT6231's had a much lower noise profile than the LM4578's we selected for our second LPF, so we knew that the first LPF would take care of mostly everything and the second would just perfect the output. In the simulation window above you can see the baseband signals and the I and Q outputs. They're exactly as expected, about 90 degrees out of phase.
 
 ## PCB Design
 
