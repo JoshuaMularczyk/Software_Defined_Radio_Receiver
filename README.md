@@ -61,7 +61,7 @@ Our Voltage Smoother with take the 5V Vcc and remove as much noise as possible u
 
 ### Arduino and Si5351
 
-![Arduino and Si5351](https://user-images.githubusercontent.com/103695977/171760493-9e65d962-7504-4b07-9917-c7026b6bcaa2.jpg)
+![Arduino and Si5351](https://user-images.githubusercontent.com/103695977/172481568-51654324-0069-432d-a443-24010c4640cb.jpg)
 
 Our [Si5351](https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf) programmable oscillator allows us to input two clock signals that are 90 degrees out of phase into S0 and S1 of the SN74CBT3253. The Arduino Nano controls the frequency that is put out by the Si5351 for tuning. For our testing we had the [Aduino](http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf) set the frequency to 14,190,000 Hz to match what was being output by a signal generator.
 
