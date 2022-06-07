@@ -76,6 +76,11 @@ Our Bandpass Filter was designed to allow a frequency range of 7-18MHz to pass t
 ![image](https://user-images.githubusercontent.com/103695977/163810193-a9069945-3c7c-4594-b9f1-aa382b970d71.png)
 ![image](https://user-images.githubusercontent.com/103695977/163810300-0baa7ec9-fe0b-4580-a687-907685373d8e.png)
 
+## PCB Design
+
+<img width="513" alt="rev6pcb" src="https://user-images.githubusercontent.com/103919092/172272703-23443340-6fdf-4e17-bb3b-1bf6cff80102.PNG">
+
+
 ## Rev 5 Testing and Fixed Issues
 
 When our Rev 5 boards arrived we realized that there was no ground plane. There had been a mixup with the gerber files and no ground plane was present. To fix this, I went ahead and connected any ground connections that relied on the ground plane with external wires. This can be seen in the [Rev 5 photos on the wiki](). 
