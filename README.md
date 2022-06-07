@@ -65,7 +65,7 @@ Our [Si5351](https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf) p
 
 ## Rev 5 Simulations
 
-We conducted all of our simulations on [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html). The following are the simulations of our filters as we have not yet fully simulated the SDR as a whole.
+We conducted all of our simulations on [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html). My partner, Christian Williams, conducted the simulations of both filters and the Tayloe Mixer.
 
 ### Bandpass Filter
 
