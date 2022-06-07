@@ -76,6 +76,11 @@ Our Bandpass Filter was designed to allow a frequency range of 7-18MHz to pass t
 ![image](https://user-images.githubusercontent.com/103695977/163810193-a9069945-3c7c-4594-b9f1-aa382b970d71.png)
 ![image](https://user-images.githubusercontent.com/103695977/163810300-0baa7ec9-fe0b-4580-a687-907685373d8e.png)
 
+### Complete SDR
+
+![Complete Simulation Graph](https://user-images.githubusercontent.com/103695977/172208557-2a06cd88-0c1e-46c1-88f6-4b392ef950bf.jpg)
+![Complete SDR Simulation](https://user-images.githubusercontent.com/103695977/172208710-ec5d7ed2-cf76-4863-a852-ea123d72f428.jpg)
+
 ## PCB Design
 
 <img width="513" alt="rev6pcb" src="https://user-images.githubusercontent.com/103919092/172272703-23443340-6fdf-4e17-bb3b-1bf6cff80102.PNG">
