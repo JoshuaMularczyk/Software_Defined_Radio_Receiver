@@ -25,7 +25,7 @@ These are the design specifications and objectives that my partner and I decided
 
 ## Overview
 
-Our (SDR) receiver connects to an antenna (mounted ontop of the Engineering Building) and covers the filtering, mixing, and amplifying of the desired I and Q signals. Our I and Q signals are then passed through an external sound card and software handles the demodulation of the signal into audio. The mixing in our SDR is handled using an Arduino Nano running code provided to us by Dr. Rob Frohne which can be found in the [Arduino file](). The Arduino interfaces with Quisk, an SDR that controls our receiver through the Arduino. Using Quisk, the radio can be tuned to a certain frequency by adjusting the speed of the local oscillator used in the mixing process.
+Our (SDR) receiver connects to an antenna (mounted ontop of the Engineering Building) and covers the filtering, mixing, and amplifying of the desired I and Q signals. Our I and Q signals are then passed through an external sound card and software handles the demodulation of the signal into audio. The mixing in our SDR is handled using an Arduino Nano running code provided to us by Dr. Rob Frohne which can be found in the [Arduino file](https://github.com/JoshuaMularczyk/Software_Defined_Radio_Receiver/blob/main/Arduino/New_Quisk_Nano/New_Quisk_Nano.ino). The Arduino interfaces with Quisk, an SDR that controls our receiver through the Arduino. Using Quisk, the radio can be tuned to a certain frequency by adjusting the speed of the local oscillator used in the mixing process.
 
 ## Theory
 
