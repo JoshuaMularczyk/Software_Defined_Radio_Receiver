@@ -99,7 +99,7 @@ Next a college, [Nicholas Zimmerman](https://github.com/nickz12345), who had bee
 
 The final error in our Rev 5 design was in our second low pass filter. This was discovered by Dr. Rob Frohne. We had not realized that the V- needed to be connected to a negative voltage instead of ground. Luckily this was a backup filter and most of the gain was in our first LPF. To fix this, I simply just removed the second LPF from the board and jumped the outputs of the first LPF to the inputs of our audio connector.
 
-Luckily I was able to fix all of these mistakes with simple cutting and jumping techniques. We immediately fixed the schematics and created Rev 6 which was displayed above.
+Luckily I was able to fix all of these mistakes with simple cutting and jumping techniques. We immediately fixed the schematics and Christian created Rev 6 of the PCB which was displayed above.
 
 ## Project Results
 
