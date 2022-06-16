@@ -95,6 +95,8 @@ We designed the tayloe mixer using four voltage controlled switches, and four vo
 
 ## Rev 5 Testing and Fixed Issues
 
+When constructing our Rev 5 board, I ran into several issues. These are explained in detail in the issues page [here]()!
+
 When our Rev 5 boards arrived we realized that there was no ground plane. There had been a mixup with the gerber files and no ground plane was present. To fix this, I went ahead and connected any ground connections that relied on the ground plane with external wires. This can be seen in the [Rev 5 photos on the wiki](https://github.com/JoshuaMularczyk/Software_Defined_Radio_Receiver/wiki/Rev-5-Photos). 
 
 Next a college, [Nicholas Zimmerman](https://github.com/nickz12345), who had been helping us error check, noticed that we had wired our Tayloe Mixer incorrectly. I then cut three out of the four traces and jumped the wires to send the I and Q signals to the correct paths. This can also be seen in the wiki. 
