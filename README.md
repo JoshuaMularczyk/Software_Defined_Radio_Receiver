@@ -88,7 +88,7 @@ Our Bandpass Filter was designed to allow a frequency range of 7-18MHz to pass t
 
 We designed the tayloe mixer using four voltage controlled switches, and four voltage pulses that control them. For our op amps, we added our LT6231, these are already Linear Technology componenets so they dont take long to simulate in LTSpice. The LT6231's had a much lower noise profile than the LM4578's we selected for our second LPF(which we ended up removing in Rev 6), so we knew that the first LPF would take care of mostly everything and the second would just perfect the output. In the simulation window above you can see the baseband signals and the I and Q outputs. They're exactly as expected, about 90 degrees out of phase.
 
-## PCB Design
+## Rev 6 PCB Design
 
 <img width="513" alt="rev6pcb" src="https://user-images.githubusercontent.com/103919092/172272703-23443340-6fdf-4e17-bb3b-1bf6cff80102.PNG">
 
